@@ -1,6 +1,7 @@
 import api
 import os
 
+# variáveis de ambiente
 ambiente = os.environ.get('AMBIENTE')
 usuario = os.environ.get('USUARIO_API')
 senha = os.environ.get('SENHA_API')
