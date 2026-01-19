@@ -17,16 +17,20 @@ class Celular:
     def calcular(self, v1, v2):
         return v1 + v2
 
-
+# criando uma instância da classe Celular()
 celular = Celular()
 
+# chamando as propriedades da classe 
 print(celular.marca)
 print(celular.modelo)
 print(celular.cor)
 print(celular.tem_camera)
 print(celular.bateria)
 
+# chamando as funções da classe
 celular.fazer_ligacoes()
 celular.jogar_cobrinha()
 celular.despertador()
-print(celular.calcular(12, 14))
+
+calculado = celular.calcular(12, 14)
+print(calculado)
