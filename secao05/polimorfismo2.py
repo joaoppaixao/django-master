@@ -1,10 +1,11 @@
 class Forma:
 
-    def atea(self):
+    def area(self):
         pass
 
 class Quadrado(Forma):
 
+    # método construtor da classe
     def __init__(self, lado):
         self.lado = lado
 
@@ -13,6 +14,7 @@ class Quadrado(Forma):
     
 class Circulo(Forma):
 
+    # método construtor da classe
     def __init__(self, raio):
         self.raio = raio
 
